@@ -2,19 +2,19 @@
   "name": "运动员医疗管理系统",
   "short_name": "理赔服务",
   "description": "北京大学理赔与住院预申请 — 微信小程序端理赔与住院预申请演示，包含身份验证、医院查询、理赔申请与进度记录功能",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#2563eb",
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
