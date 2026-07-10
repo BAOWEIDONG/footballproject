@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+  <title>北京大学理赔服务</title>
+  <meta name="theme-color" content="#2563eb" />
+  <link rel="manifest" href="/footballproject/manifest.json" />
+  <script>
+    // PaddleOCR 的 opencv.js (Emscripten) 依赖全局 Module 变量
+    // 预定义避免 vite dev ESM 严格模式下 "Module is not defined" ReferenceError
+    window.Module = window.Module || {};
+    // 注册 Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch(() => {});
+      });
+    }
+  </script>
+  <script type="module" crossorigin src="/footballproject/assets/index-PzczSZ93.js"></script>
+  <link rel="stylesheet" crossorigin href="/footballproject/assets/index-BCh6Ty64.css">
+</head>
+<body class="bg-gray-100">
+  <div id="root"></div>
+</body>
+</html>
